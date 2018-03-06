@@ -1,0 +1,129 @@
+@import "./config";
+
+/*
+    初始化页面布局
+*/
+html,body {
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+    font-size:14px;
+    line-height: 1;
+    height: 100%;
+    overflow-x:hidden;
+}
+#app {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    margin: auto;
+    font-size: 13px;
+    background: #fff;
+    -webkit-tap-highlight-color: transparent;
+}
+
+* {
+    outline: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color:@blue;
+    text-decoration: none;   
+}
+
+.img-responsive {
+    width:100%;
+    max-height:100%;
+}
+.common-typeicon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    height: 80px;
+    .icon {
+        padding: 20px 5px;
+    }
+    .iconfont {
+        display: block;
+        font-size: 34px;
+        transform: rotate(35deg);
+    }
+    .icon-topic-top {
+        color: red;
+    }
+    .icon-topic-good {
+        color: green;
+    }
+}
+
+
+/*头部与脚注*/
+
+nav {
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+    z-index:2001;
+    padding:0 1rem;
+  }
+  section.content {
+    overflow:auto;
+    position:absolute;
+    top:48px;
+    right:0;
+    bottom:50px;
+    left:0;
+    z-index:100;
+    -webkit-overflow-scrolling : touch; 
+  }
+  nav {
+    line-height:50px;
+    background-color:#333;
+
+    ul {
+      li {
+       color:white;
+        a{
+          c
+          font-size:1rem;
+          position:relative;
+        }
+        i{
+            color:white;
+        }
+      }
+    }
+  }
+.v-content {
+        overflow: auto;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        bottom: 50px;
+        left: 0;
+        z-index: 100;
+        -webkit-overflow-scrolling : touch; 
+    }
+.media-avatar-circle {
+    width:2.5rem;
+    height:2.5rem;
+    border-radius:100%;
+  }
+.media-avatar-circle-medium {
+    width:6rem;
+    height:6rem;
+    border-radius:100%;
+}

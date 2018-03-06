@@ -1,0 +1,60 @@
+
+@import "./config";
+nav {
+    background-color:white;
+    ul {
+      padding:0 1rem;
+      li {
+        color:@text;
+        a{
+          color:@gray-text-02;
+          font-size:0.8rem;
+          position:relative;
+        }
+        i {
+          color:@text;
+        }
+      }
+    }
+  }
+
+  .media-avatar-circle {
+    width:6rem;
+    height:6rem;
+  }
+  .v-content {
+    h4 {
+      font-weight:400;
+      font-size:1.8rem;
+      margin-bottom:1rem;
+    }
+    span {
+      color:@gray-text-02;
+    }
+  }
+form {
+    width: 70%;
+    padding: 2rem 10%;
+   
+    .line {
+        padding: 1rem 0;
+    }
+    .text {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px 10px 5px 0;
+        line-height: 28px;
+        font-size: 14px;
+        border: 1px solid transparent;
+        border-bottom: 0.1rem solid #333;
+        border-radius:0;
+    }
+    .btn {
+        width: 100%;
+        line-height: 34px;
+        border: 1px solid darken(#333, 3%);
+        font-size: 14px;
+        color: #fff;
+        background: #333;
+    }
+}

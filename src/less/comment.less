@@ -1,0 +1,71 @@
+@import "./config";
+ section.v-content{
+    ul {
+    }
+    .media {
+      display:flex;
+      justify-content:space-between;
+      align-items: center;
+      padding:1rem;
+    }
+    .media-rigure {
+      margin-right:1rem;
+    }
+    .media-left {
+     display:flex;
+     justify-content:flex-start;
+     .media-body {
+      margin-left:1rem;
+      p {
+        margin:5px 0;
+        font-size:1.2rem;
+        span {
+          font-size:0.8rem;
+          margin-left:1.5rem;
+          color:@gray-text-01;
+        }
+      }
+     }
+     a{
+      font-size:0.8rem;
+      color:@blue;
+     }
+    }
+  }
+
+  .v-list-operate {
+    ul {
+      padding:0.8rem 0;
+    }
+    li {
+      img {
+        width:24px;
+        height:24px;
+      }
+      span {
+        margin-left:5px;
+        font-size:1.2rem;
+      }
+    }
+  }
+  .v-comments-list {
+    padding:0.5rem 1rem;
+    border-top:1px solid #eee;
+    p　{
+      color:@gray-text-02;
+    }
+    ul {
+      li {
+        p {
+          color:@text;
+          font-weight:bold;
+          line-height: 1.3rem;
+          span {
+            font-weight:normal;
+
+            color:@gray-text-01;
+          }
+        }
+      }
+    }
+  }
